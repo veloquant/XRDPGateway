@@ -7,7 +7,7 @@ please refer to the upstream container.
 
 Below is an example invocation on a Linux or Mac host. Please use your home-directories base directory and set-up createusers.txt as explained in the documentation of the base image referenced above. Also, see it for a Windows example.
 
-    docker run --name XRDPGateway --privileged=true -p 3389:3389 -v ${PWD}/createusers.txt:/root/createusers.txt -v /home:/home -dit --restart unless-stopped yitzikc/xrdpgateway:19.04
+    docker run --name XRDPGateway --privileged=true -p 3389:3389 -v ${PWD}/createusers.txt:/root/createusers.txt -v /home:/home -dit --restart unless-stopped yitzikc/xrdpgateway:20.04
 
 
 ## Known issues
